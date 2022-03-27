@@ -28,7 +28,7 @@ function Modal({ valute, modalClose }) {
         let mas = [];
 
         for (let i = 1; i < 11; i++) {
-            let day = setDate(i).day-1;
+            let day = setDate(i).day;
             let month = setDate(i).month;
             let year = setDate(i).year;
             await axios
